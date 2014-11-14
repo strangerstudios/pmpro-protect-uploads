@@ -3,10 +3,12 @@
 Plugin Name: PMPro Protect Uploads
 Plugin URI: http://www.paidmembershipspro.com/wp/pmpro-protect-uploads/
 Description: Redirects traffic to files in the uploads folder through the PMPro getfile script to check for member access.
-Version: .1.1
+Version: .2
 Author: Stranger Studios
 Author URI: http://www.strangerstudios.com
 */
+
+define('PMPRO_GETFILE_ENABLED', true);
 
 /*
 	Code that generates and adds the rewrite rule.
